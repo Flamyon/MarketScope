@@ -1,8 +1,8 @@
 import streamlit as st
 from views import charts, dashboard, backtest
 
-st.set_page_config(page_title="TickerLab", layout="wide")
-st.title("TickerLab")
+st.set_page_config(page_title="Market Scope", layout="wide")
+st.title("Market Scope")
 
 with st.sidebar:
     ticker = st.text_input("Ticker", "AAPL").upper().strip()
